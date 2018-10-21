@@ -1,7 +1,8 @@
 function processText() {
+
     var text = document.getElementById("input").value;
     text=text.toUpperCase();
-    text=text.replace(/\./g,' ');
+    text=text.replace(/\./g,' '); //period to " "
     var split_text=text.split(" ");
 
     var list=[];
